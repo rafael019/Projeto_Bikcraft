@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <title>Bikcraft - Sobre</title>
@@ -17,8 +18,8 @@
             <a href="index.html" class="grid-4"><img src="img/bikcraft.png" alt="Bikcraft"></a>
             <nav class="grid-12 header_menu">
                 <ul>
-                    <li><a href="sobre.html" class="menu_ativo">Sobre</a></li>
-                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html" class="menu_ativo">Produtos</a></li>
                     <li><a href="portfolio.html">Portfólio</a></li>
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
@@ -55,8 +56,8 @@
             </ul>
         </div>
     </section>
-    
-      <section class="container produto_item">
+
+    <section class="container produto_item">
         <div class="grid-11">
             <img src="img/produtos/bikcraft-passeio-1.jpg" alt="Bikcraft Esporte">
             <h2>Esporte</h2>
@@ -100,15 +101,44 @@
         </div>
     </section>
 
-    
-    <section class="quebra">
-         <blockquote class="quote-externo container">
-                <p>“O verdadeiro segredo da felicidade está em ter um genuino interesse por todos os detalhes da vida cotidiana”</p>
-                <cite>WILLIAM MORRIS</cite>
-            </blockquote>
+    <section class="orcamento">
+        <div class="container">
+            <h2 class="subtitulo">Orçamento</h2>
+            <form id="form_orcamento" action="" class="form grid-8">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+                <label for="email">E-mail</label>
+                <input type="email" id="email">
+                <label for="nome">Telefone</label>
+                <input type="text" id="telefone">
+                <label for="espec">Especificações</label>
+                <textarea id="espec"></textarea>
+                <button type="submit" class="btn">Enviar </button>
+            </form>
+            <div class="orcamento_dados grid-8">
+                <h3>Dados</h3>
+                <span>+55 21 9999-9999</span><span class="dados_email">contato@bikcraft.com</span>
+                <h3>Monte a sua Bikcraft</h3>
+                <p>Escolha as especificações:</p>
+                <ul>
+                    <li>– Cores</li>
+                    <li>– Estilo</li>
+                    <li>– Medidas</li>
+                    <li>– Acessórios</li>
+                    <li>– E Outros</li>
+                </ul>
+            </div>
+        </div>
     </section>
-    
-    
+
+    <section class="quebra">
+        <blockquote class="quote-externo container">
+            <p>“O verdadeiro segredo da felicidade está em ter um genuino interesse por todos os detalhes da vida cotidiana”</p>
+            <cite>WILLIAM MORRIS</cite>
+        </blockquote>
+    </section>
+
+
     <footer>
         <div class="footer">
             <div class="container">
@@ -127,13 +157,14 @@
                 <div class="grid-4 footer_redes">
                     <h3>Redes Sociais</h3>
                     <ul>
-                        <li><a href="#" target="_blank"><img src="img/redes-sociais/facebook.png" alt="Facebook"></a></li><li><a href="#" target="_blank"><img src="img/redes-sociais/instagram.png" alt="Instagram"></a></li>
+                        <li><a href="#" target="_blank"><img src="img/redes-sociais/facebook.png" alt="Facebook"></a></li>
+                        <li><a href="#" target="_blank"><img src="img/redes-sociais/instagram.png" alt="Instagram"></a></li>
                         <li><a href="#" target="_blank"><img src="img/redes-sociais/twitter.png" alt="Twitter"></a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        
+
         <div class="copy">
             <div class="container">
                 <p class="grid-16">
@@ -142,6 +173,7 @@
             </div>
         </div>
     </footer>
-    
+
 </body>
+
 </html>
