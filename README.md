@@ -14,3 +14,4 @@ CSS Utilizado
  
  - Jquery
  - Plugin de Slide (ResponsiveSlides.js v1.54)
+ - Modernizer
