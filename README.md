@@ -2,15 +2,15 @@
 Repositório criado para controle do versão do projeto criado no curso Web Design Completo do site Origamid
 
 
-CSS Utilizado
+CSS 
 
  - reset.css
  - normalize.css
  - grid.css (Criado por André Rafael da Origamid)
- - Animate.css
+ - animate.css
  
  
- JavaScript Utilizado
+ JavaScript
  
  - Jquery
  - Plugin de Slide (ResponsiveSlides.js v1.54)
