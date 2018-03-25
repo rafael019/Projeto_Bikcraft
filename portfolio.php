@@ -1,5 +1,4 @@
 <?php include('header.php'); ?>
-    
     <section class="introducao-interna interna_portfolio">
         <div class="container">
             <h1>Portfólio</h1>
@@ -49,13 +48,10 @@
 	</section>
 
 
-    <section class="quebra">
+    <div class="quebra">
         <blockquote class="quote-externo container">
             <p>“O verdadeiro segredo da felicidade está em ter um genuino interesse por todos os detalhes da vida cotidiana”</p>
             <cite>WILLIAM MORRIS</cite>
         </blockquote>
-    </section>
-
-
-
+    </div>
 <?php include('footer.php'); ?>

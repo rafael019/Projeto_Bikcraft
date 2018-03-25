@@ -48,8 +48,4 @@
 	<section class="container contato_mapa">
 		<a href="" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço Bikcraft"></a>
 	</section>
-
-
-
-
 <?php include('footer.php'); ?>
