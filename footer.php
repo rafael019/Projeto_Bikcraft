@@ -20,17 +20,17 @@
 					<ul>
 						<li>
 							<a href="#" target="_blank">
-								<img src="img/redes-sociais/facebook.png" alt="Facebook">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/redes-sociais/facebook.png" alt="Facebook">
 							</a>
 						</li>
 						<li>
 							<a href="#" target="_blank">
-								<img src="img/redes-sociais/instagram.png" alt="Instagram">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/redes-sociais/instagram.png" alt="Instagram">
 							</a>
 						</li>
 						<li>
 							<a href="#" target="_blank">
-								<img src="img/redes-sociais/twitter.png" alt="Twitter">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/redes-sociais/twitter.png" alt="Twitter">
 							</a>
 						</li>
 					</ul>
@@ -47,9 +47,9 @@
 		</div>
 	</footer>
 	<!--JavaScript-->
-	<script src="js/libs/jquery.min.js"></script>
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
+	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/libs/jquery.min.js"></script>
+	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/plugins.js"></script>
+	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/main.js"></script>
 </body>
 
 </html>

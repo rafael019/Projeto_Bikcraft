@@ -15,7 +15,7 @@
 		<ul class="produtos_lista">
 			<li class="grid-1-3">
 				<div class="produtos_icone">
-					<img src="img/produtos/passeio.png" alt="Bikcraft Passeio">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/produtos/passeio.png" alt="Bikcraft Passeio">
 				</div>
 				<h3>Passeio</h3>
 				<p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação</p>
@@ -23,7 +23,7 @@
 
 			<li class="grid-1-3">
 				<div class="produtos_icone">
-					<img src="img/produtos/esporte.png" alt="Bikcraft Passeio">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/produtos/esporte.png" alt="Bikcraft Passeio">
 				</div>
 				<h3>Esporte</h3>
 				<p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação</p>
@@ -31,7 +31,7 @@
 
 			<li class="grid-1-3">
 				<div class="produtos_icone">
-					<img src="img/produtos/retro.png" alt="Bikcraft Passeio">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/produtos/retro.png" alt="Bikcraft Passeio">
 				</div>
 				<h3>Retro</h3>
 				<p>Ainda assim, existem dúvidas a respeito de como a necessidade de renovação</p>
@@ -51,24 +51,24 @@
 			<ul class="portfolio_lista rslides_portfolio">
 				<li>
 					<div class="grid-8">
-						<img src="img/portfolio/retro.jpg" alt="Bicicleta Retro">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/retro.jpg" alt="Bicicleta Retro">
 					</div>
 					<div class="grid-8">
-						<img src="img/portfolio/passeio.jpg" alt="Bicicleta Passeio">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/passeio.jpg" alt="Bicicleta Passeio">
 					</div>
 					<div class="grid-16">
-						<img src="img/portfolio/esporte.jpg" alt="Bicicleta Esporte">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/esporte.jpg" alt="Bicicleta Esporte">
 					</div>
 				</li>
 				<li>
 					<div class="grid-8">
-						<img src="img/portfolio/passeio.jpg" alt="Bicicleta Passeio">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/passeio.jpg" alt="Bicicleta Passeio">
 					</div>
 					<div class="grid-8">
-						<img src="img/portfolio/retro.jpg" alt="Bicicleta Retro">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/retro.jpg" alt="Bicicleta Retro">
 					</div>
 					<div class="grid-16">
-						<img src="img/portfolio/esporte.jpg" alt="Bicicleta Esporte">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/esporte.jpg" alt="Bicicleta Esporte">
 					</div>
 				</li>
 			</ul>
@@ -81,7 +81,7 @@
 
 	<section class="qualidade container">
 		<h2 class="subtitulo"> Qualidade</h2>
-		<img src="img/bikcraft-qualidade.png" alt="Bikcraft">
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bikcraft-qualidade.png" alt="Bikcraft">
 		<ul class="qualidade_lista">
 			<li class="grid-1-3">
 				<h3>Durabilidade</h3>
